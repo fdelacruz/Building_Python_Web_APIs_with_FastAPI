@@ -17,7 +17,7 @@ multidict==6.0.2
 passlib==1.7.4
 propcache==0.2.1
 pycparser==2.21
-pydantic==1.9.0
+pydantic==1.10.16
 PyJWT==2.3.0
 pymongo==3.12.3
 python-dotenv==0.20.0
@@ -29,6 +29,6 @@ sqlalchemy2-stubs==0.0.2a20
 sqlmodel==0.0.6
 starlette==0.17.1
 toml==0.10.2
-typing_extensions==4.1.1
+typing_extensions==4.2.0
 uvicorn==0.17.5
 yarl==1.18.3

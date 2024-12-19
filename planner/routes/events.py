@@ -24,6 +24,7 @@ async def retrieve_event(id: PydanticObjectId) -> Event:
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Event with supplied ID does not exist",
         )
+    return event
 
 
 @event_router.post("/new")

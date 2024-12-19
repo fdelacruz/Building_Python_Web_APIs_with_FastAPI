@@ -12,7 +12,7 @@ class Settings(BaseSettings):
 
     async def initialize_database(self):
         client = AsyncIOMotorClient(self.DATABASE_URL)
-        await init_beanie(database=client.dbname, document_models=[Event, User])
+        await init_beanie(database=client.planner, document_models=[Event, User])
 
     class Config:
         env_file = ".env"

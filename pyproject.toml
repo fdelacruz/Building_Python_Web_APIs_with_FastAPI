@@ -44,6 +44,7 @@ cryptography = "36.0.2"
 ecdsa = "0.17.0"
 pyasn1 = "0.4.8"
 rsa = "4.8"
+pytest = "7.1.2"
 
 
 [build-system]
